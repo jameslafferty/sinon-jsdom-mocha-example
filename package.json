@@ -8,6 +8,10 @@
     "pretest": "npm run lint",
     "test": "mocha"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jameslafferty/sinon-jsdom-mocha-example.git"
+  },
   "keywords": [
     "mocha",
     "jsdom",
