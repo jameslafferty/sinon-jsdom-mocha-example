@@ -1,0 +1,30 @@
+{
+  "name": "sinon-jsdom-mocha-example",
+  "version": "1.0.0",
+  "description": "A 'hello world' example of using sinon, jsdom and mocha to test XMLHttpRequests.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . && jscs .",
+    "pretest": "npm run lint",
+    "test": "mocha"
+  },
+  "keywords": [
+    "mocha",
+    "jsdom",
+    "sinon",
+    "testing",
+    "tdd",
+    "javascript"
+  ],
+  "author": "jameslafferty",
+  "license": "ISC",
+  "dependencies": {
+    "jsdom": "^8.4.0",
+    "mocha": "^2.4.5",
+    "sinon": "^1.17.3"
+  },
+  "devDependencies": {
+    "eslint": "^2.8.0",
+    "jscs": "^3.0.3"
+  }
+}
